@@ -1,4 +1,4 @@
-# Distillery
+# Fetchy
 
 A local, BYOK (bring-your-own-key) multi-agent research assistant. Breaks a topic into sub-questions, searches the web, summarizes findings, fact-checks claims against sources, corrects unsupported claims, and writes a final report — all on your own machine.
 
