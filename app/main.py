@@ -5,16 +5,16 @@ import time
 
 import flet as ft
 
-from .config import get_api_key, get_model, get_provider
-from .graph.build_graph import build_pipeline
-from .graph.state import ResearchState
-from .providers.llm_client import LLMClient
-from .providers.search.duckduckgo import DuckDuckGoProvider
-from .ui.key_setup_view import KeySetupView
-from .ui.progress_view import STAGES, ProgressView
-from .ui.report_view import ReportView
-from .ui.topic_view import TopicView
-from .utils.logging import setup_logger
+from app.config import get_api_key, get_model, get_provider
+from app.graph.build_graph import build_pipeline
+from app.graph.state import ResearchState
+from app.providers.llm_client import LLMClient
+from app.providers.search.duckduckgo import DuckDuckGoProvider
+from app.ui.key_setup_view import KeySetupView
+from app.ui.progress_view import STAGES, ProgressView
+from app.ui.report_view import ReportView
+from app.ui.topic_view import TopicView
+from app.utils.logging import setup_logger
 
 logger = setup_logger(__name__)
 
