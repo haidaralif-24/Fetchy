@@ -41,7 +41,7 @@ jobs:
 
       - name: Pack with flet
         shell: bash
-        run: flet pack launch.py --name synapse --icon ${{ matrix.icon }} --onedir -y
+        run: flet pack launch.py --name synapse --icon ${{ matrix.icon }} -y
 
       - name: Upload build artifact
         uses: actions/upload-artifact@v4
